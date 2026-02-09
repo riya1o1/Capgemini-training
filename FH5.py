@@ -1,0 +1,6 @@
+f = open(r"C:\Users\mailr\OneDrive\Pictures\Screenshots\Credit_output.png", "rb")
+data = f.read()
+print(data)
+print("Image opened successfully")
+print("Size in bytes:", len(data))
+f.close()

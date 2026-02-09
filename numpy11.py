@@ -1,0 +1,11 @@
+import numpy as np
+zeros_array = np.array ((2,3))
+ones_array = np.ones((3,3))
+constant_array = np.full((2,2),7)
+range_array = np.arange(0,10,2)
+linspace_array = np.linspace(0,1,5)
+print("Zeros array",zeros_array)
+print("Ones array",ones_array)
+print("Constant array",constant_array)
+print("Range array",range_array)
+print("Linspace array",linspace_array)

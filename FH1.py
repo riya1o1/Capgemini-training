@@ -1,0 +1,6 @@
+f = open(r"C:\Users\mailr\OneDrive\Desktop\Notepad.txt", "r")
+print(f.read())
+f.close()
+print("Filename:",f.name)
+print("Mode:",f.mode)
+print("Is closed?",f.closed)
